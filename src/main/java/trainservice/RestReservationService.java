@@ -1,4 +1,7 @@
+package trainservice;
 import org.apache.http.HttpStatus;
+
+import trainservice.interfaces.ReservationService;
 
 public class RestReservationService implements ReservationService {
 	

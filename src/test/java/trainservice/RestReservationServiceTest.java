@@ -1,9 +1,15 @@
+package trainservice;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;
 
 import org.apache.http.HttpStatus;
 import org.junit.Test;
+
+import trainservice.Reservation;
+import trainservice.RestReservationService;
+import trainservice.Seat;
+import trainservice.interfaces.ReservationService;
 
 public class RestReservationServiceTest {
 	

@@ -1,4 +1,5 @@
-import static spark.Spark.*;
+package trainservice;
+import static spark.Spark.post;
 
 import com.google.gson.Gson;
 

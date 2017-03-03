@@ -1,5 +1,5 @@
+package trainservice;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.json.JSONObject;
@@ -9,6 +9,8 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+
+import trainservice.interfaces.TrainDataService;
 
 public class RestTrainDataService implements TrainDataService {
 	
@@ -31,12 +33,6 @@ public class RestTrainDataService implements TrainDataService {
 			result.add(gson.fromJson(jsonObject.toString(), Seat.class));
 		}
 		
-		
-//		
-//		gson.
-//		
-//		Seat[] seatArray = gson.fromJson(response.getBody(), Seat[].class);
-//		return Arrays.asList(seatArray);
 		return result;
 	}
 

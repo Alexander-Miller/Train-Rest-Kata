@@ -1,3 +1,4 @@
+package trainservice;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.List;
@@ -5,6 +6,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.junit.Test;
+
+import trainservice.RestBookingIdService;
+import trainservice.interfaces.BookingIdService;
 
 public class BookingIdServiceTest {
 	

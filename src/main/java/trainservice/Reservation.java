@@ -1,3 +1,4 @@
+package trainservice;
 import java.util.List;
 
 public class Reservation {
@@ -10,5 +11,13 @@ public class Reservation {
         this.bookingId = bookingId;
         this.seats = seats;
     }
+
+	public String getTrainId() {
+		return trainId;
+	}
+
+	public List<Seat> getSeats() {
+		return seats;
+	}
 
 }

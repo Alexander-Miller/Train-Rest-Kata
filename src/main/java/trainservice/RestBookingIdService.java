@@ -1,3 +1,6 @@
+package trainservice;
+
+import trainservice.interfaces.BookingIdService;
 
 public class RestBookingIdService implements BookingIdService {
 

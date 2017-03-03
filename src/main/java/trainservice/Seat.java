@@ -1,3 +1,4 @@
+package trainservice;
 import com.google.gson.annotations.SerializedName;
 
 public class Seat {
@@ -20,4 +21,12 @@ public class Seat {
         Seat other = (Seat)o;
         return coach==other.coach && seatNumber==other.seatNumber;
     }
+
+	public String getCoach() {
+		return coach;
+	}
+
+	public int getSeatNumber() {
+		return seatNumber;
+	}
 }
