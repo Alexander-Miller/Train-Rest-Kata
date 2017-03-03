@@ -2,6 +2,8 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 public class TicketOfficeTest {
+	
+	TicketOffice cut = new TicketOffice();
     
     @Test
     public void reserveSeats() {
